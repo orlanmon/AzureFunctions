@@ -31,6 +31,16 @@ Turn on informational logging
     }
   }
 
+  "logging": {
+    "logLevel": {
+      "default": "Information",
+      "Function": "Information",
+      "Host.Results": "Information",
+      "Host.Aggregator": "Trace"
+    }
+
+    Still working on this as we speak.
+
 
 
 
@@ -48,7 +58,8 @@ Ideal for .NET developers who want a quick, guided GUI experience.
 
 Note unlike and App Services an Azure Function is automatically assigned a System Managed ID!   
 
-Under Azure Function:   Settings -> Indentity Note System Assigned Managed Identity.  This is in Entra ID 
+Under Azure Function:   Settings -> Indentity :  System Assigned Managed Identity.  
 
-Note unlike App Services you do not have to connect an Application Insight Resource to an Azure Function.  App Insights Automatically Provided
+Note like App Services you do have to connect an Application Insight Resource to an Azure Function.  
+
 

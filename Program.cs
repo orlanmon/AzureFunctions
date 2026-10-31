@@ -11,7 +11,8 @@ var builder = FunctionsApplication.CreateBuilder(args);
 
 builder.ConfigureFunctionsWebApplication();
 
-// 2. Direct, clean dependency injection
+
+// Register For dependency injection
 
 
 // builder.Services.AddSingleton<IMyService, MyService>();  For Container Dependency Injection
